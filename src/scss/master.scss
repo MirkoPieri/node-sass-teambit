@@ -10,11 +10,11 @@ $bg_orange: #FFE7D2;
 $bg_white: white;
 $size: 15pt;
 $height: 150px;
-//placeholder
+
+//placeholder e mixin
 %centrale {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
-  height: 300px;
 }
 
 @mixin headFooter ($height) {
@@ -44,6 +44,7 @@ $height: 150px;
   background-color: #30488F;
   padding: 10px;
   color: white;
+  cursor: pointer;
 }
 
 %image {

@@ -6,9 +6,8 @@
 }
 
 div.central section.sectioncentral {
-  width: 70%;
+  width: 50%;
   margin: 0 auto;
-  height: 300px;
 }
 
 section.section1 div.text,
@@ -30,6 +29,7 @@ section.section1 div.text div.scritte button {
   background-color: #30488F;
   padding: 10px;
   color: white;
+  cursor: pointer;
 }
 
 section.section1 div.image img {
@@ -39,6 +39,51 @@ section.section1 div.image img {
 
 div.central {
   background-color: #FFE7D2;
+  padding: 100px 0px;
+}
+
+div.central section.title {
+  padding: 0 60px;
+  font-size: 16pt;
+  text-align: center;
+  color: #58402C;
+}
+
+div.central section.image_serie {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 80px;
+  position: relative;
+}
+
+div.central section.image_serie img {
+  width: 150px;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+div.central section.image_serie p {
+  font-size: 14pt;
+  text-align: center;
+  padding-top: 30px;
+  color: #58402C;
+}
+
+div.central section.solo_img {
+  margin: 80px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 50px;
+}
+
+div.central section.solo_img img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 300px;
+  width: auto;
 }
 
 header {
@@ -98,18 +143,29 @@ section.section1 div.text div.scritte {
 }
 
 section.section1 div.text div.scritte h1 {
-  font-size: 40pt;
+  font-size: 38pt;
   color: #58402C;
 }
 
-section.section1 div.text div.scritte p {
+section.section1 div.text div.scritte p.textOne {
   font-size: 20pt;
   margin: 50px 0;
   color: #58402C;
 }
 
-section.section1 div.text div.scritte button {
-  position: relative;
+section.section1 div.text div.scritte i {
+  margin: 0 10px;
+  color: lightgray;
+}
+
+section.section1 div.text div.scritte p {
+  margin: 10px 0;
+}
+
+section.section1 div.text div.scritte p a {
+  font-size: 10pt;
+  text-decoration: none;
+  color: #6D5846;
 }
 
 section.section1 div.image {

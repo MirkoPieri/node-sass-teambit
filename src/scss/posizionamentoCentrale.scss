@@ -1,9 +1,56 @@
 div.central {
   background-color: $bg_orange;
+  padding: 100px 0px;
 
   section.sectioncentral {
 
     @extend %centrale;
 
   }
+
+  section.title {
+    padding: 0 60px;
+    @include text($size: 16pt);
+    text-align: center;
+    color: #58402C;
+  } //prima sezione
+
+  section.image_serie {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 80px;
+    position: relative;
+
+    img {
+      width: 150px;
+      height: 100px;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%);
+    }
+
+    p {
+      @include text($size: 14pt);
+      text-align: center;
+      padding-top: 30px;
+      color: #58402C;
+    }
+  } //seconda sezione
+
+  section.solo_img {
+    margin: 80px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 50px;
+
+    img {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 300px;
+      width: auto;
+    }
+
+  } //terza sezione
+
 } //chiusura div central

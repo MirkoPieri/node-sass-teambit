@@ -5,28 +5,42 @@ section.section1 {
     @extend  %headFooterCent;
     display: flex;
 
-    div.scritte {
+    div.scritte { //parte delle scritte
       width: 50%;
 
       h1 {
-        @include text($size: 40pt);
+        @include text($size: 38pt);
         color: #58402C;
       }
 
-      p {
+      p.textOne {
         @include text($size: 20pt);
         margin: 50px 0;
         color: #58402C;
       }
 
+      i {
+        margin: 0 10px;
+        color: lightgray;
+      }
+
       button {
         @extend  %buttonSection1;
-        position: relative;
         }
+
+      p {
+        margin: 10px 0;
+
+        a {
+          @include text($size: 10pt);
+          text-decoration: none;
+          color: #6D5846;
+        }
+      }
       }
     }
 
-    div.image {
+    div.image { //parte dell'immagine
       width: 50%;
 
       img {
