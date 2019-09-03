@@ -4,3 +4,38 @@
   box-sizing: border-box;
 }
 
+div.central section.sectioncentral {
+  width: 70%;
+  margin: 0 auto;
+  height: 300px;
+}
+
+section.section1,
+footer,
+header {
+  height: 150px;
+  width: 100%;
+  background-color: white;
+}
+
+section.section1 div.text,
+footer section,
+header section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section.sectionWhite div.textImage {
+  width: 90%;
+  margin: 0 auto;
+  height: 300px;
+}
+
+div.central {
+  background-color: #FFE7D2;
+}
+
+div.container {
+  width: 100%;
+}
+

@@ -3,3 +3,42 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+//definizione variabili
+$bg_orange: #FFE7D2;
+$bg_white: white;
+//placeholder
+%centrale {
+  width: 70%;
+  margin: 0 auto;
+  height: 300px;
+}
+
+%headFooter {
+  height: 150px;
+  width: 100%;
+  background-color: $bg_white;
+}
+
+%headFooterCent {
+  width: 80%;
+  margin: 0 auto;
+}
+
+%sezioneImmagini {
+  width: 90%;
+  margin: 0 auto;
+  height: 300px;
+}
+
+//importazione vari file
+@import 'posizionamentoCentrale';
+@import 'header';
+@import 'footer';
+@import 'sezioneImmagini';
+@import 'sezione1';
+
+// div generale parte centrale
+div.container {
+  width: 100%;
+}

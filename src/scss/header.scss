@@ -1,0 +1,7 @@
+header {
+  @extend %headFooter;
+
+  section {
+  @extend  %headFooterCent;
+  }
+}

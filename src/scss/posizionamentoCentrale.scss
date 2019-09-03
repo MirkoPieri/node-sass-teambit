@@ -1,0 +1,9 @@
+div.central {
+  background-color: $bg_orange;
+
+  section.sectioncentral {
+
+    @extend %centrale;
+
+  }
+} //chiusura div central

@@ -1,0 +1,7 @@
+footer {
+  @extend %headFooter;
+
+  section {
+  @extend  %headFooterCent;
+  }
+} //chiusura footer

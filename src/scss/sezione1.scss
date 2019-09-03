@@ -1,0 +1,7 @@
+section.section1 {
+  @extend %headFooter;
+
+  div.text {
+    @extend  %headFooterCent
+  }
+}
