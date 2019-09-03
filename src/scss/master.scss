@@ -2,11 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'HarmoniaSansProCyr-Regular',Arial,sans-serif;
 }
 
 //definizione variabili
 $bg_orange: #FFE7D2;
 $bg_white: white;
+$size: 15pt;
+$height: 150px;
 //placeholder
 %centrale {
   width: 70%;
@@ -14,14 +17,14 @@ $bg_white: white;
   height: 300px;
 }
 
-%headFooter {
-  height: 150px;
+@mixin headFooter ($height) {
+  height: $height;
   width: 100%;
   background-color: $bg_white;
 }
 
 %headFooterCent {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -31,6 +34,22 @@ $bg_white: white;
   height: 300px;
 }
 
+@mixin text($size) {
+  font-size: $size;
+}
+
+%buttonSection1 {
+  border: 1px solid #30488F;
+  border-radius: 10px;
+  background-color: #30488F;
+  padding: 10px;
+  color: white;
+}
+
+%image {
+  width: 100%;
+  height: auto;
+}
 //importazione vari file
 @import 'posizionamentoCentrale';
 @import 'header';

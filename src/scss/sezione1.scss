@@ -1,7 +1,36 @@
 section.section1 {
-  @extend %headFooter;
-
+  @include headFooter($height: auto);
+  padding-bottom: 50px;
   div.text {
-    @extend  %headFooterCent
-  }
-}
+    @extend  %headFooterCent;
+    display: flex;
+
+    div.scritte {
+      width: 50%;
+
+      h1 {
+        @include text($size: 40pt);
+        color: #58402C;
+      }
+
+      p {
+        @include text($size: 20pt);
+        margin: 50px 0;
+        color: #58402C;
+      }
+
+      button {
+        @extend  %buttonSection1;
+        position: relative;
+        }
+      }
+    }
+
+    div.image {
+      width: 50%;
+
+      img {
+          @extend  %image;
+        }
+      }
+    }

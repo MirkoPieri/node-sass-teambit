@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
 }
 
 div.central section.sectioncentral {
@@ -10,18 +11,10 @@ div.central section.sectioncentral {
   height: 300px;
 }
 
-section.section1,
-footer,
-header {
-  height: 150px;
-  width: 100%;
-  background-color: white;
-}
-
 section.section1 div.text,
 footer section,
 header section {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -31,8 +24,96 @@ section.sectionWhite div.textImage {
   height: 300px;
 }
 
+section.section1 div.text div.scritte button {
+  border: 1px solid #30488F;
+  border-radius: 10px;
+  background-color: #30488F;
+  padding: 10px;
+  color: white;
+}
+
+section.section1 div.image img {
+  width: 100%;
+  height: auto;
+}
+
 div.central {
   background-color: #FFE7D2;
+}
+
+header {
+  height: 150px;
+  width: 100%;
+  background-color: white;
+}
+
+header section {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 15pt;
+  padding: 30px 0 15px 0;
+}
+
+header section ul li {
+  display: inline;
+  padding-right: 20px;
+}
+
+header section a {
+  text-decoration: none;
+  color: #6D5846;
+}
+
+header section button {
+  border-radius: 10px;
+  border: 1px solid #2E4691;
+  padding: 10px;
+  cursor: pointer;
+  background-color: white;
+  color: #2E4691;
+  font-weight: bold;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: white;
+}
+
+section.section1 {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+section.section1 div.text {
+  display: flex;
+}
+
+section.section1 div.text div.scritte {
+  width: 50%;
+}
+
+section.section1 div.text div.scritte h1 {
+  font-size: 40pt;
+  color: #58402C;
+}
+
+section.section1 div.text div.scritte p {
+  font-size: 20pt;
+  margin: 50px 0;
+  color: #58402C;
+}
+
+section.section1 div.text div.scritte button {
+  position: relative;
+}
+
+section.section1 div.image {
+  width: 50%;
 }
 
 div.container {

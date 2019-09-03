@@ -1,5 +1,5 @@
 footer {
-  @extend %headFooter;
+  @include headFooter($height);
 
   section {
   @extend  %headFooterCent;
