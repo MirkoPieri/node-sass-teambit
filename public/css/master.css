@@ -17,10 +17,9 @@ header section {
   margin: 0 auto;
 }
 
-section.sectionWhite div.textImage {
+section.sectionWhite {
   width: 90%;
   margin: 0 auto;
-  height: 300px;
 }
 
 section.section1 div.text div.scritte button {
@@ -42,11 +41,21 @@ div.central {
   padding: 100px 0px;
 }
 
+div.central section.sectioncentral h2 {
+  text-align: center;
+  color: #58402C;
+  font-size: 20pt;
+}
+
 div.central section.title {
   padding: 0 60px;
   font-size: 16pt;
   text-align: center;
   color: #58402C;
+}
+
+div.central section.title h2 {
+  font-size: 18pt;
 }
 
 div.central section.image_serie {
@@ -57,24 +66,33 @@ div.central section.image_serie {
   position: relative;
 }
 
-div.central section.image_serie img {
-  width: 150px;
-  height: 100px;
+div.central section.image_serie div.one_section {
+  width: 33%;
+  height: 200px;
+}
+
+div.central section.image_serie div.one_section img {
+  max-width: 55%;
+  max-height: 55%;
   position: relative;
   left: 50%;
   transform: translate(-50%);
 }
 
-div.central section.image_serie p {
+div.central section.image_serie div.one_section p {
   font-size: 14pt;
   text-align: center;
   padding-top: 30px;
   color: #58402C;
+  max-width: 250px;
+}
+
+div.central section.one {
+  border-bottom: 1px solid gray;
 }
 
 div.central section.solo_img {
   margin: 80px;
-  border-bottom: 1px solid gray;
   padding-bottom: 50px;
 }
 
@@ -125,6 +143,101 @@ footer {
   height: 150px;
   width: 100%;
   background-color: white;
+}
+
+section.sectionWhite {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.sectionWhite div.soloImagedx {
+  width: 50%;
+  margin: 100px 0;
+}
+
+section.sectionWhite div.soloImagedx img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+section.sectionWhite div.textImagesx {
+  width: 50%;
+  margin: 100px 0;
+  padding-right: 400px;
+  text-align: left;
+  position: relative;
+}
+
+section.sectionWhite div.textImagesx h2 {
+  font-size: 22pt;
+  color: #58402C;
+  margin-bottom: 20px;
+}
+
+section.sectionWhite div.textImagesx p {
+  font-size: 16pt;
+  color: #58402C;
+  margin-bottom: 20px;
+}
+
+section.sectionWhite div.textImagesx a {
+  font-size: 16pt;
+  text-decoration: none;
+  color: #30488F;
+}
+
+section.sectionWhite div.textImagesx img {
+  max-width: 50%;
+  max-height: 50%;
+  position: absolute;
+  left: 20%;
+  top: 100%;
+  transform: translate(-20%, -100%);
+}
+
+section.sectionWhite div.textImagedx {
+  width: 50%;
+  margin: 100px 0;
+  padding-left: 400px;
+  text-align: left;
+  position: relative;
+}
+
+section.sectionWhite div.textImagedx h2 {
+  font-size: 22pt;
+  color: #58402C;
+  margin-bottom: 20px;
+}
+
+section.sectionWhite div.textImagedx p {
+  font-size: 16pt;
+  color: #58402C;
+  margin-bottom: 20px;
+}
+
+section.sectionWhite div.textImagedx a {
+  font-size: 16pt;
+  text-decoration: none;
+  color: #30488F;
+}
+
+section.sectionWhite div.textImagedx img {
+  max-width: 50%;
+  max-height: 50%;
+  position: absolute;
+  left: 80%;
+  top: 80%;
+  transform: translate(-80%, -80%);
+}
+
+section.sectionWhite div.soloImagesx {
+  width: 50%;
+  margin: 100px 0;
+}
+
+section.sectionWhite div.soloImagesx img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 section.section1 {

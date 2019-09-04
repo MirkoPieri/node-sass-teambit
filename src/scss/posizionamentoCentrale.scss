@@ -6,6 +6,11 @@ div.central {
 
     @extend %centrale;
 
+    h2 {
+      text-align: center;
+      color: #58402C;
+      @include text($size: 20pt);
+    }
   }
 
   section.title {
@@ -13,6 +18,10 @@ div.central {
     @include text($size: 16pt);
     text-align: center;
     color: #58402C;
+
+    h2 {
+      @include text($size: 18pt);
+    }
   } //prima sezione
 
   section.image_serie {
@@ -22,9 +31,13 @@ div.central {
     margin-top: 80px;
     position: relative;
 
+    div.one_section {
+      width: 33%;
+      height: 200px;
+
     img {
-      width: 150px;
-      height: 100px;
+      max-width: 55%;
+      max-height: 55%;
       position: relative;
       left: 50%;
       transform: translate(-50%);
@@ -35,12 +48,17 @@ div.central {
       text-align: center;
       padding-top: 30px;
       color: #58402C;
+      max-width: 250px;
     }
+  } //chiusura class one_section
   } //seconda sezione
+
+  section.one {
+    border-bottom: 1px solid gray;
+  }
 
   section.solo_img {
     margin: 80px;
-    border-bottom: 1px solid gray;
     padding-bottom: 50px;
 
     img {
