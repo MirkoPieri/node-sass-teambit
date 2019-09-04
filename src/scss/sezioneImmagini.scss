@@ -32,7 +32,7 @@ section.sectionWhite {
     }
 
     a {
-      @include text($size: 16pt);
+      @include text($size: 13pt);
       text-decoration: none;
       color: #30488F;
     }
@@ -67,7 +67,7 @@ section.sectionWhite {
     }
 
     a {
-      @include text($size: 16pt);
+      @include text($size: 13pt);
       text-decoration: none;
       color: #30488F;
     }
