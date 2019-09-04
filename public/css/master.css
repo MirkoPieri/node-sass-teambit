@@ -302,8 +302,8 @@ section.sectionWhite div.textImagesx a {
 }
 
 section.sectionWhite div.textImagesx img {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 35%;
+  max-height: 35%;
   position: absolute;
   left: 20%;
   top: 100%;
@@ -337,8 +337,8 @@ section.sectionWhite div.textImagedx a {
 }
 
 section.sectionWhite div.textImagedx img {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 35%;
+  max-height: 35%;
   position: absolute;
   left: 80%;
   top: 80%;
