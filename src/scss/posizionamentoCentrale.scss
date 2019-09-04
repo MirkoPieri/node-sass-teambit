@@ -84,7 +84,7 @@ div.central {
       margin-top: 50px;
       background-color: $bg_white;
       padding: 30px;
-      border: 1px solid black;
+      border: 1px solid gray;
       border-radius: 10px;
       p {
         @include text($size: 13pt);
