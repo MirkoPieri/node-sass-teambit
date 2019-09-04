@@ -11,7 +11,7 @@ div.central {
       color: #58402C;
       @include text($size: 20pt);
     }
-  }
+  } //chiusura section central
 
   section.title {
     padding: 0 60px;
@@ -69,7 +69,7 @@ div.central {
       width: auto;
     }
 
-  } //terza sezione
+  } //terza sezione div.solo_img
 
   section.two {
     padding: 0 150px;
