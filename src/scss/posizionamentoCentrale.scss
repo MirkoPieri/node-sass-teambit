@@ -1,6 +1,6 @@
 div.central {
   background-color: $bg_orange;
-  padding: 100px 0px;
+  padding: 200px 0px;
 
   section.sectioncentral {
 
@@ -71,4 +71,55 @@ div.central {
 
   } //terza sezione
 
+  section.two {
+    padding: 0 150px;
+    position: relative;
+
+    h2 {
+      @include text($size: 26pt);
+      text-align: center;
+    }
+
+    section.textp {
+      margin-top: 50px;
+      background-color: $bg_white;
+      padding: 30px;
+      border: 1px solid black;
+      border-radius: 10px;
+      p {
+        @include text($size: 13pt);
+        padding: 20px;
+        color: #58402C;
+      }
+    } //chiusura section textp
+
+    div.button {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-top: 50px;
+
+      button {
+        @extend  %buttonSection1;
+      }
+
+      i {
+        margin: 0 10px;
+        color: lightgray;
+      }
+
+      p {
+        margin: 20px 0;
+        text-align: center;
+
+        a {
+          @include text($size: 10pt);
+          text-decoration: none;
+          color: #6D5846;
+        }
+    } //chiusura div button
+
+
+    }
+  } //chiusura section two
 } //chiusura div central

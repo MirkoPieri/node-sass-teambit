@@ -22,7 +22,8 @@ section.sectionWhite {
   margin: 0 auto;
 }
 
-section.section1 div.text div.scritte button {
+section.section1 div.text div.scritte button,
+div.central section.two div.button button {
   border: 1px solid #30488F;
   border-radius: 10px;
   background-color: #30488F;
@@ -38,7 +39,7 @@ section.section1 div.image img {
 
 div.central {
   background-color: #FFE7D2;
-  padding: 100px 0px;
+  padding: 200px 0px;
 }
 
 div.central section.sectioncentral h2 {
@@ -102,6 +103,53 @@ div.central section.solo_img img {
   transform: translateX(-50%);
   height: 300px;
   width: auto;
+}
+
+div.central section.two {
+  padding: 0 150px;
+  position: relative;
+}
+
+div.central section.two h2 {
+  font-size: 26pt;
+  text-align: center;
+}
+
+div.central section.two section.textp {
+  margin-top: 50px;
+  background-color: white;
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+div.central section.two section.textp p {
+  font-size: 13pt;
+  padding: 20px;
+  color: #58402C;
+}
+
+div.central section.two div.button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+}
+
+div.central section.two div.button i {
+  margin: 0 10px;
+  color: lightgray;
+}
+
+div.central section.two div.button p {
+  margin: 20px 0;
+  text-align: center;
+}
+
+div.central section.two div.button p a {
+  font-size: 10pt;
+  text-decoration: none;
+  color: #6D5846;
 }
 
 header {
